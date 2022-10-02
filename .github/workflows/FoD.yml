@@ -63,7 +63,7 @@ jobs:
           echo "Create mbs file..."
           sourceanalyzer -b $BUILD_ID -export-build-session $BUILD_ID.mbs
           echo "Zip mbs file..."
-          zip -9mq package.zip ${BUILD_ID}.mbs
+          zip -9q package.zip ${BUILD_ID}.mbs
         env:
           BUILD_ID: "akka-http-webgoat"
 
