@@ -9,4 +9,4 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % "2.6.19",
 )
 
-Compile / unmanagedSourceDirectories += baseDirectory.value / "extra-src"
+//Compile / unmanagedSourceDirectories += baseDirectory.value / "extra-src"
